@@ -25,12 +25,17 @@ header {
 
 #left-side {
   display: flex;
+  margin-left: 24px;
 }
 
 #logo-icon {
   margin-left: 24px;
   height: 32px;
   margin: auto 0;
+}
+
+.hidden-icons {
+  display: none;
 }
 
 #nav-heading {
@@ -62,6 +67,440 @@ header {
   margin-right: 16px;
 }
 
+#navbar-list li a:hover {
+  color: black;
+}
+
 #navbar-list li a:nth-last-child(4) {
   margin-right: 24px;
+}
+
+/**Main Section***/
+
+#main-section {
+  background-color: #cbc0d3;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+#banner-img {
+  width: 60%;
+}
+
+#banner-img img {
+  margin: 32px 24px;
+  height: 520px;
+  width: 100%;
+}
+
+#right-aside {
+  width: 60%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto 24px;
+  padding: 0 1.5rem;
+}
+
+#right-aside h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 0 4rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+#banner-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  padding: 0 4rem;
+  text-align: left;
+}
+
+#aside-btn {
+  background-color: #495057;
+  color: white;
+  text-decoration: none;
+  padding: 8px 165px;
+  display: inline-block;
+}
+
+#aside-btn:hover {
+  background-color: white;
+  color: #495057;
+}
+
+/**More Articles Section**/
+
+#more-articles {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#right-articles {
+  width: 60vw;
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#img-right-article img {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 32px;
+}
+
+#heading-right-article {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+#article-text {
+  font-size: 1.15rem;
+  line-height: 1.5rem;
+  padding-right: 1.5rem;
+  margin-bottom: 32px;
+}
+
+#article-signature {
+  margin-bottom: 32px;
+}
+
+/**Right Articles**/
+
+#left-articles {
+  border-left: 0.25px solid #d3d3d3;
+  width: 60vw;
+}
+
+.articles-group {
+  display: flex;
+}
+
+.articles-images img {
+  width: 150px;
+  height: 150px;
+  margin: 16px;
+  align-items: center;
+}
+
+.article-groups-heading {
+  font-size: 1.35rem;
+  margin: 2.5rem auto 0;
+}
+
+.article-paragraph-group {
+  margin: 0.8rem auto;
+  font-size: 1.15rem;
+}
+
+.articles-links {
+  text-decoration: none;
+  color: blue;
+  font-size: 1.15rem;
+}
+
+.articles-links:hover {
+  color: black;
+}
+
+.articles-group:last-child {
+  background-color: #d3d3d3;
+}
+
+.articles-group:first-child {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+/**Start Learning Section**/
+
+#start-learning {
+  background-color: #d3d3d3;
+  width: 100%;
+}
+
+#start-learning-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 32px;
+  padding-top: 32px;
+}
+
+.start-learning-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto 72px;
+}
+
+#learning-card {
+  width: 350px;
+  height: 410px;
+  margin-bottom: 32px;
+  background-color: white;
+}
+
+#learning-card img {
+  width: 350px;
+  height: 250px;
+}
+
+#card-heading {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+
+#card-course {
+  margin-bottom: 8px;
+  margin-left: 16px;
+  font-size: 0.95rem;
+  font-weight: 300;
+}
+
+.card-text {
+  margin-bottom: 8px;
+  margin-left: 16px;
+  line-height: 1.25rem;
+}
+
+/**Exhibit Section**/
+
+#exhibit h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 32px auto;
+}
+
+#exhibit-sides {
+  display: flex;
+}
+
+#left-side-exhibit {
+  width: 60%;
+}
+
+#left-side-exhibit video {
+  width: 90%;
+  margin: auto 24px;
+}
+
+#exhibit-left-text {
+  margin: 24px;
+}
+
+#exhibit-heading {
+  margin-bottom: 8px;
+  font-size: 1.35rem;
+}
+
+#exhibit-left-paragraph {
+  padding: auto 6.5rem;
+  line-height: 1.25rem;
+  font-size: 1.12rem;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+#right-side-exhibit {
+  width: 40%;
+}
+
+.right-side-thumbnails {
+  display: flex;
+}
+
+.right-exhibit-img img {
+  width: 150px;
+  height: 150px;
+  margin: 16px;
+  align-items: center;
+}
+
+.right-side-thumbnail-text h3 {
+  font-size: 1.45rem;
+  margin: 2.5rem auto 0;
+}
+
+.right-side-thumbnail-text p {
+  margin: 0.8rem auto;
+  font-size: 1.15rem;
+}
+
+.right-side-thumbnails:first-child {
+  background-color: #d3d3d3;
+}
+
+/**Footer**/
+
+#footer-navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border-top: 1px solid #d3d3d3;
+}
+
+#footer-navbar p,
+#footer-links {
+  margin-top: 16px;
+  margin-left: 24px;
+  font-size: 0.95rem;
+}
+
+#footer-links {
+  display: flex;
+  list-style: none;
+}
+
+#footer-links a {
+  margin-right: 1.25rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: black;
+}
+
+/***Media Query***/
+
+@media (max-width: 500px) {
+  #main-section {
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+  }
+
+  #navbar,
+  #nav-heading {
+    display: none;
+  }
+
+  #left-side {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #logo-icon,
+  .hidden-icons {
+    display: inline-block;
+  }
+
+  .hidden-icons,
+  #logo-icon {
+    display: inline-block;
+    margin-left: 24px;
+    height: 64px;
+    margin: auto 18px;
+  }
+
+  #banner-img img {
+    width: 100vw;
+    height: 300px;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  #right-aside {
+    margin-bottom: 32px;
+    background-color: #d3d3d3;
+    box-sizing: border-box;
+    margin: -10px 0;
+    width: 100vw;
+    height: 780px;
+  }
+
+  #right-aside h2 {
+    font-size: 2.55rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #banner-text {
+    font-size: 1.25rem;
+  }
+
+  #aside-btn {
+    font-size: 1.25rem;
+    padding: 16px 140px;
+    margin-bottom: 32px;
+  }
+
+  #right-articles {
+    display: none;
+  }
+
+  #left-articles {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    border-left: none;
+    width: 100vw;
+    height: 300px;
+    box-sizing: border-box;
+  }
+
+  .articles-group:last-child {
+    background-color: white;
+    border-bottom: 1px solid #d3d3d3;
+    margin-bottom: 32px;
+  }
+
+  .articles-links:last-child {
+    margin-bottom: 32px;
+    display: inline-block;
+  }
+
+  #start-learning {
+    margin-top: 290px;
+    background-color: white;
+  }
+
+  #start-learning-heading {
+    padding-bottom: 16px;
+  }
+
+  #learning-card {
+    background-color: #d3d3d3;
+    width: 100%;
+    height: 100%;
+  }
+
+  #learning-card img,
+  #learning-card p,
+  #card-course {
+    display: none;
+  }
+
+  #card-heading {
+    padding: 16px 16px 24px;
+  }
+
+  #exhibit-sides {
+    display: flex;
+    flex-direction: column;
+    border-left: none;
+    width: 100vw;
+  }
+
+  #left-side-exhibit video {
+    width: 100vw;
+    height: 300px;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  #exhibit-left-text,
+  #right-side-exhibit,
+  #footer-navbar-links {
+    display: none;
+  }
+
+  #footer-navbar p {
+    text-align: center;
+    margin-top: 24px;
+    padding: 16px;
+  }
 }
